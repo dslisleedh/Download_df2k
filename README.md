@@ -46,6 +46,8 @@ $ tree -d ./datasets
 │       └── X4
 ```
 
+If all filenaes of hr/lr must be same, run `change_filename.py` after `download_df2k.sh`
+
 For other benchmarks, check [this](https://drive.google.com/drive/folders/1-99XFJs_fvQ2wFdxXrnJFcRRyPJYKN0K)
 
 
