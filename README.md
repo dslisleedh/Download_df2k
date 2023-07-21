@@ -15,33 +15,35 @@ $ tree -d ./datasets
 │       ├── X2
 │       ├── X3
 │       └── X4
-├── DIV2K_train_LR_bicubic
-│   ├── X2
-│   ├── X3
-│   └── X4
-├── DIV2K_train_LR_unknown
-│   ├── X2
-│   ├── X3
-│   └── X4
-├── DIV2K_valid_HR
-├── DIV2K_valid_LR_bicubic
-│   ├── X2
-│   ├── X3
-│   └── X4
-├── DIV2K_valid_LR_unknown
-│   ├── X2
-│   ├── X3
-│   └── X4
-└── Flickr2K
-    ├── Flickr2K_HR
-    ├── Flickr2K_LR_bicubic
-    │   ├── X2
-    │   ├── X3
-    │   └── X4
-    └── Flickr2K_LR_unknown
-        ├── X2
-        ├── X3
-        └── X4
+├── DIV2K
+│   ├── DIV2K_train_HR
+│   ├── DIV2K_train_LR_bicubic
+│   │   ├── X2
+│   │   ├── X3
+│   │   └── X4
+│   ├── DIV2K_train_LR_unknown
+│   │   ├── X2
+│   │   ├── X3
+│   │   └── X4
+│   ├── DIV2K_valid_HR
+│   ├── DIV2K_valid_LR_bicubic
+│   │   ├── X2
+│   │   ├── X3
+│   │   └── X4
+│   └── DIV2K_valid_LR_unknown
+│       ├── X2
+│       ├── X3
+│       └── X4
+├── Flickr2K
+│   ├── Flickr2K_HR
+│   ├── Flickr2K_LR_bicubic
+│   │   ├── X2
+│   │   ├── X3
+│   │   └── X4
+│   └── Flickr2K_LR_unknown
+│       ├── X2
+│       ├── X3
+│       └── X4
 ```
 
 For other benchmarks, check [this](https://drive.google.com/drive/folders/1-99XFJs_fvQ2wFdxXrnJFcRRyPJYKN0K)
