@@ -1,6 +1,6 @@
 # Download_df2k
 
-Result of sh file would be ...
+Result of `download_df2k.sh` file would be ...
 
 ```shell
 $ tree -d ./datasets
@@ -44,6 +44,24 @@ $ tree -d ./datasets
 │       ├── X2
 │       ├── X3
 │       └── X4
+```
+
+Result of `download_lsdir.sh` file would be ...
+```shell
+$ tree -d ./LSDIR
+.
+├── Train
+│   ├── HR
+│   └── LR
+│       ├── X2
+│       ├── X3
+│       └── X4
+└── Valid
+    ├── HR
+    └── LR
+        ├── X2
+        ├── X3
+        └── X4
 ```
 
 If all filenaes of hr/lr must be same, run `change_filename.py` after `download_df2k.sh`
